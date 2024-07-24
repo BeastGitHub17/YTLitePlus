@@ -237,3 +237,11 @@
 - (void)showMessageMainThread:(id)message;
 + (id)sharedInstance;
 @end
+
+// Hide Premium Promo in You tab - @bhackel
+@interface YTAppCollectionViewController : YTInnerTubeCollectionViewController
+- (void)uYouEnhancedFakePremiumModel:(YTISectionListRenderer *)model;
+@end
+@interface YTInnerTubeCollectionViewController (YTLitePlus)
+@property(readonly, nonatomic) YTISectionListRenderer *model;
+@end
