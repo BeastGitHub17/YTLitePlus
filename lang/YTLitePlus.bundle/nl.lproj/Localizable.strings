@@ -14,8 +14,8 @@ https://github.com/PoomSmart/Return-YouTube-Dislikes/tree/main/layout/Library/Ap
 */
 
 // Settings
-"VERSION" = "YTLitePlus's version: %@";
-"VERSION_CHECK" = "Tap to check for update!";
+"VERSION" = "Versie van YTLitePlus: %@";
+"VERSION_CHECK" = "Tik om te controleren op update!";
 
 // Video controls overlay options
 "VIDEO_CONTROLS_OVERLAY_OPTIONS" = "Video Controls Overlay Options";
