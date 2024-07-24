@@ -756,6 +756,9 @@ BOOL isTabSelected = NO;
     if (IsEnabled(@"disableEngagementOverlay_enabled")) {
         %init(gDisableEngagementOverlay);
     }
+    if (IS_ENABLED(@"youTabFakePremium_enabled")) {
+        %init(gFakePremium);
+    }
 
     // Change the default value of some options
     NSArray *allKeys = [[[NSUserDefaults standardUserDefaults] dictionaryRepresentation] allKeys];
